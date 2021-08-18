@@ -16,3 +16,10 @@
 
 #WebContent/showWinner.jsp 
       -->It displays the winner of the poll.
+
+#WebContent/userVotes.jsp 
+      -->It provides an interface to students for voting out of the given registered candidates.
+      -->It accepts studentId and shows the list of the registered candidates so that the student can vote one candidate of his choice through radio button.
+      
+src/com/poll
+      -->
