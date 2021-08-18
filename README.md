@@ -22,4 +22,7 @@
       -->It accepts studentId and shows the list of the registered candidates so that the student can vote one candidate of his choice through radio button.
       
 src/com/poll
-      -->
+      -->It has been divided into three components:
+            1)Controller: Passes data between the presentation layer and application logic layer.It does not contain any business logic.
+            2)Model: It acts as a bean and declares the classes and their variables and methods(getters and setters).
+            3)
