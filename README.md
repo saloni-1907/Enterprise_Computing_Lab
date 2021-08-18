@@ -23,6 +23,9 @@
       
 src/com/poll
       -->It has been divided into three components:
-            1)Controller: Passes data between the presentation layer and application logic layer.It does not contain any business logic.
-            2)Model: It acts as a bean and declares the classes and their variables and methods(getters and setters).
-            3)
+            1)Controller: Passes data between the presentation layer and application logic layer.It does not contain any business logic.It has got the following servlets:
+                  a)RegisterServlet
+                  b)VoteServlet
+                  c)WinnerServlet
+            2)Model: It acts as a bean and declares the classes and their variables and methods(getters and setters).The models of Candidate and Student have been created.
+            3)Service: It contains the real business logic.The Service layers have been created for the classes Candidate And Student.
